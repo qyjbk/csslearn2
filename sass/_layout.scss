@@ -1,0 +1,81 @@
+.container {
+    // 如果此处给margin: 8rem auto;
+    // 则会导致网页的高度高于屏幕的高度
+    // margin会穿透没有设置padding的元素
+    margin: 8rem auto;
+    box-shadow: var(--shadow-dark);
+    // 友好于响应式设计
+    max-width: 120rem;
+    background-color: var(--color-grey-light-1);
+
+    @media only screen and (max-width: 75em) {
+        margin: 0 auto;
+    }
+
+}
+
+.header {
+    font-size: 1.4rem;
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--line);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+    flex: 0 0 18%;
+    // flex-basis: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hotel-view {
+    background-color: #fff;
+    flex: 1;
+
+    // height: 80rem;
+}
+
+.detail {
+    font-size: 1.4rem;
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+}
+
+.description {
+
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    background-color: #fff;
+    box-shadow: vat(--shadow-light);
+    padding: 4.5rem;
+}
+
+.user-reviews {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+
+    &__book-now {
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
+    }
+}

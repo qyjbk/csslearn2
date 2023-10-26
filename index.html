@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" alt="trillo logo" class="logo">
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="找酒店">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="img/user.jpg" alt="用户头像" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">jonus</span>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item-active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>酒店</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>机票</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>租车</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>旅行</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    &copy; 2018 by jonas. All rights reserved.
+                </div>
+            </nav>
+            <main class="hotel-view">
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="img/hotel-1.jpg" alt="photo of hotel 1" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/hotel-2.jpg" alt="photo of hotel 2" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/hotel-3.jpg" alt="photo of hotel 3" class="gallery__photo">
+                    </figure>
+                </div>
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Hotel Yamha
+                    </h1>
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">shanghai</button>
+                    </div>
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 votes</div>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            吕凯特曾经说过，生命不可能有两次，但许多人连一次也不善于度过。带着这句话，我们还要更加慎重的审视这个问题： 既然如何， 既然如此， 在这种困难的抉择下，本人思来想去，寝食难安。
+                        </p>
+                        <p class="paragraph">
+                            那么， 酒店，到底应该如何实现。 要想清楚，酒店，到底是一种怎么样的存在。若酒店出现了，我们就不得不考虑它出现了的事实。
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">靠近海滩</li>
+                            <li class="list__item">附含早餐</li>
+                            <li class="list__item">免费机场班车</li>
+                            <li class="list__item">免费wifi覆盖</li>
+                            <li class="list__item">空调</li>
+                            <li class="list__item">允许宠物</li>
+                            <li class="list__item">国际语言通用</li>
+                            <li class="list__item">适宜家庭</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                李华和3位朋友推荐这家酒店。
+                            </p>
+                            <div class="recommend__friends">
+                                <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                                <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                                <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                                <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-1.jpg" alt="user 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Sisous Mark</p>
+                                    <p class="review__user-date">22/02/14</p>
+                                </div>
+                                <div class="review__rating">7.8</div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-2.jpg" alt="user 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Mary Smith</p>
+                                    <p class="review__user-date">22/01/11</p>
+                                </div>
+                                <div class="review__rating">9.3</div>
+                            </figcaption>
+                        </figure>
+                        <button class="btn-inline">Show all<span>&rarr;</span></button>
+                    </div>
+
+                    
+                </div>
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        好消息！现在我们还有四件房可供您选择预定。
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">预定</span>
+                        <span class="btn__invisible">仅剩四间房</span>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
